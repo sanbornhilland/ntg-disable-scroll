@@ -5,7 +5,9 @@ module.directive('ntgDisableScroll', function () {
     restritc: 'A',
     link: function postLink(scope, elem, attrs) {
       elem.bind('mousewheel', function (event) {
-        event.preventDefault();
+        if (this === document.activeElement) {
+          event.preventDefault();  
+        }
       })
     }
   }
