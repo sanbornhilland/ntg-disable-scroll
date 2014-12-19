@@ -1,0 +1,17 @@
+{
+  "name": "ntg-disable-scroll",
+  "version": "0.0.0",
+  "authors": [
+    "sanbornh@newyyz.com"
+  ],
+  "description": "Disable scrolling on input[type=number] fields",
+  "main": "ntgDisableScroll.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
